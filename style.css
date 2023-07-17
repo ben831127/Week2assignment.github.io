@@ -31,6 +31,11 @@ img {
   vertical-align: middle;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .btn {
   justify-self: flex-end;
   width: 185px;
@@ -179,6 +184,25 @@ header .container .text .contactbtn img {
   width: 657px;
   display: flex;
   justify-content: space-between;
+}
+.contact .container .contacttext img {
+  width: 100px;
+  height: 100px;
+}
+.contact .container .contacticon {
+  width: 541px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .container img {
+  width: 162px;
+  height: 162px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+.contact .container img:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9);
 }
 
 .project .container {
