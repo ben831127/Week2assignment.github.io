@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC";
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 64px;
+}
+
+h1 {
+  color: #00ffa3;
+  font-size: 128px;
+  text-align: right;
+}
+
+p {
+  font-size: 24px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.btn {
+  justify-self: flex-end;
+  width: 185px;
+  height: 48px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn .btntext {
+  font-size: 16px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+nav {
+  background-color: #000000;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  height: 88px;
+  color: #d1d1d1;
+}
+nav .container div {
+  margin-top: 40px;
+  align-self: baseline;
+  font-size: 16px;
+  width: 306px;
+}
+nav .container .contactme {
+  display: flex;
+  width: 196px;
+  text-align: end;
+  justify-content: end;
+}
+
+header {
+  background-color: #000000;
+}
+header .container {
+  height: 992px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container img {
+  width: 636px;
+  height: 848px;
+  vertical-align: middle;
+}
+header .container .text {
+  width: 636px;
+}
+header .container .text .contactbtn {
+  display: flex;
+  justify-content: flex-end;
+}
+header .container .text .contactbtn .btn {
+  background-color: #ffffff;
+}
+header .container .text .contactbtn img {
+  width: 24px;
+  height: 24px;
+}
+
+.intro {
+  height: 920px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+}
+.intro .container {
+  padding-top: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+.intro .container .introtext {
+  width: 526px;
+}
+.intro .container .introtext p {
+  color: #ffffff;
+}
+.intro .container .introtext img {
+  margin-top: 32px;
+}
+.intro .container .introimg {
+  width: 746px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 740px;
+}
+.about .container ul {
+  width: 636px;
+  height: 328px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about .container ul li {
+  width: 306px;
+  height: 148px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+}
+.about .container ul li .num,
+.about .container ul li .title {
+  width: 274px;
+  font-size: 20px;
+}
+.about .container ul li .p16 {
+  width: 274px;
+  font-size: 16px;
+}
+.about .container .abouttext {
+  width: 526px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about .container .abouttext h2 {
+  color: #000000;
+}
+
+.contact {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contact .container {
+  height: 354px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .container .contacttext {
+  width: 657px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project .container {
+  height: 962px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project .projecttitle h2 {
+  margin-left: 550px;
+  color: #000;
+}
+
+.projectcontent {
+  width: 1296px;
+  height: 530px;
+  display: flex;
+  justify-content: space-between;
+}
+.projectcontent .right {
+  width: 856px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projectcontent .top {
+  display: flex;
+  justify-content: space-between;
+}
+.projectcontent .top .subright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projectcontent .top .subright p {
+  width: 636px;
+  font-size: 16px;
+}
+.projectcontent .top .subright .btn {
+  background-color: #000;
+  color: #ffffff;
+}
+.projectcontent .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #000;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */

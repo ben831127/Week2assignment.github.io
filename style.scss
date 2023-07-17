@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC";
+  line-height: 1.5;
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 64px;
+}
+h1 {
+  color: #00ffa3;
+  font-size: 128px;
+  text-align: right;
+}
+
+p {
+  font-size: 24px;
+}
+img {
+  vertical-align: middle;
+}
+
+.btn {
+  justify-self: flex-end;
+  width: 185px;
+  height: 48px;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .btntext {
+    font-size: 16px;
+  }
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+nav {
+  background-color: #000000;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    color: #d1d1d1;
+
+    div {
+      margin-top: 40px;
+      align-self: baseline;
+      font-size: 16px;
+
+      width: 306px;
+    }
+    .contactme {
+      display: flex;
+      width: 196px;
+      text-align: end;
+      justify-content: end;
+    }
+  }
+}
+
+header {
+  background-color: #000000;
+  .container {
+    height: 992px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 636px;
+      height: 848px;
+      vertical-align: middle;
+    }
+    .text {
+      width: 636px;
+
+      .contactbtn {
+        display: flex;
+        justify-content: flex-end;
+        .btn {
+          background-color: #ffffff;
+        }
+        img {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
+.intro {
+  height: 920px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+  .container {
+    padding-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    .introtext {
+      width: 526px;
+      p {
+        color: #ffffff;
+      }
+      img {
+        margin-top: 32px;
+      }
+    }
+    .introimg {
+      width: 746px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.about {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 740px;
+
+    ul {
+      width: 636px;
+      height: 328px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      li {
+        width: 306px;
+        height: 148px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #e3e3e3;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
+        .num,
+        .title {
+          width: 274px;
+          font-size: 20px;
+        }
+        .p16 {
+          width: 274px;
+          font-size: 16px;
+        }
+      }
+    }
+    .abouttext {
+      width: 526px;
+      height: 420px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      h2 {
+        color: #000000;
+      }
+    }
+  }
+}
+
+.contact {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+
+  .container {
+    height: 354px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .contacttext {
+      width: 657px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.project {
+  .container {
+    height: 962px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .projecttitle {
+    h2 {
+      margin-left: 550px;
+      color: #000;
+    }
+  }
+}
+.projectcontent {
+  width: 1296px;
+  height: 530px;
+  display: flex;
+  justify-content: space-between;
+
+  .right {
+    width: 856px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    .subright {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      p {
+        width: 636px;
+        font-size: 16px;
+      }
+      .btn {
+        background-color: #000;
+        color: #ffffff;
+      }
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+footer {
+  background-color: #000;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+}
