@@ -12,15 +12,10 @@ body {
   margin: 0 auto;
 }
 
+h1,
 h2 {
   color: #ffffff;
   font-size: 64px;
-}
-
-h1 {
-  color: #00ffa3;
-  font-size: 128px;
-  text-align: right;
 }
 
 p {
@@ -45,9 +40,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-.btn .btntext {
-  font-size: 16px;
-}
 
 .btn:hover {
   cursor: pointer;
@@ -56,35 +48,31 @@ a {
 nav {
   background-color: #000000;
 }
-nav .container {
+nav ul {
   display: flex;
   justify-content: space-between;
-  height: 88px;
-  color: #d1d1d1;
 }
-nav .container div {
+nav ul li {
+  padding-top: 40px;
+}
+nav a {
+  color: #d1d1d1;
   margin-top: 40px;
   align-self: baseline;
   font-size: 16px;
-  width: 306px;
-}
-nav .container .contactme {
-  display: flex;
-  width: 196px;
-  text-align: end;
-  justify-content: end;
 }
 
 header {
   background-color: #000000;
 }
 header .container {
-  height: 992px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 header .container img {
+  margin-top: 72px;
+  margin-bottom: 72px;
   width: 636px;
   height: 848px;
   vertical-align: middle;
@@ -92,12 +80,14 @@ header .container img {
 header .container .text {
   width: 636px;
 }
-header .container .text .contactbtn {
-  display: flex;
-  justify-content: flex-end;
+header .container .text span {
+  color: #00ffa3;
+  font-size: 128px;
+  float: right;
 }
-header .container .text .contactbtn .btn {
+header .container .text .contactbtn {
   background-color: #ffffff;
+  float: right;
 }
 header .container .text .contactbtn img {
   width: 24px;
@@ -105,7 +95,8 @@ header .container .text .contactbtn img {
 }
 
 .intro {
-  height: 920px;
+  padding-top: 160px;
+  padding-bottom: 160px;
   background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
 }
 .intro .container {
@@ -132,16 +123,17 @@ header .container .text .contactbtn img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 740px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
-.about .container ul {
+.about .container ol {
   width: 636px;
   height: 328px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.about .container ul li {
+.about .container ol li {
   width: 306px;
   height: 148px;
   display: flex;
@@ -151,12 +143,12 @@ header .container .text .contactbtn img {
   border: 1px solid #e3e3e3;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.08);
 }
-.about .container ul li .num,
-.about .container ul li .title {
+.about .container ol li .num,
+.about .container ol li .title {
   width: 274px;
   font-size: 20px;
 }
-.about .container ul li .p16 {
+.about .container ol li .p16 {
   width: 274px;
   font-size: 16px;
 }
@@ -175,7 +167,8 @@ header .container .text .contactbtn img {
   background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
 }
 .contact .container {
-  height: 354px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -190,9 +183,11 @@ header .container .text .contactbtn img {
   height: 100px;
 }
 .contact .container .contacticon {
-  width: 541px;
   display: flex;
   justify-content: space-between;
+}
+.contact .container a {
+  margin-left: 20px;
 }
 .contact .container img {
   width: 162px;
@@ -206,13 +201,15 @@ header .container .text .contactbtn img {
 }
 
 .project .container {
-  height: 962px;
+  padding-top: 160px;
+  padding-bottom: 160px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .project .projecttitle h2 {
-  margin-left: 550px;
+  width: 746px;
+  margin-left: auto;
   color: #000;
 }
 
@@ -252,10 +249,12 @@ header .container .text .contactbtn img {
 
 footer {
   background-color: #000;
-  height: 104px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  font-size: 16px;
+}
+footer div {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */

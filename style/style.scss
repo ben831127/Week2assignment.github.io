@@ -11,14 +11,10 @@ body {
   margin: 0 auto;
 }
 
+h1,
 h2 {
   color: #ffffff;
   font-size: 64px;
-}
-h1 {
-  color: #00ffa3;
-  font-size: 128px;
-  text-align: right;
 }
 
 p {
@@ -40,9 +36,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  .btntext {
-    font-size: 16px;
-  }
 }
 .btn:hover {
   cursor: pointer;
@@ -50,49 +43,45 @@ a {
 
 nav {
   background-color: #000000;
-  .container {
+  ul {
     display: flex;
     justify-content: space-between;
-    height: 88px;
+    li {
+      padding-top: 40px;
+    }
+  }
+  a {
     color: #d1d1d1;
-
-    div {
-      margin-top: 40px;
-      align-self: baseline;
-      font-size: 16px;
-
-      width: 306px;
-    }
-    .contactme {
-      display: flex;
-      width: 196px;
-      text-align: end;
-      justify-content: end;
-    }
+    margin-top: 40px;
+    align-self: baseline;
+    font-size: 16px;
   }
 }
 
 header {
   background-color: #000000;
   .container {
-    height: 992px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     img {
+      margin-top: 72px;
+      margin-bottom: 72px;
       width: 636px;
       height: 848px;
       vertical-align: middle;
     }
     .text {
       width: 636px;
+      span {
+        color: #00ffa3;
+        font-size: 128px;
+        float: right;
+      }
 
       .contactbtn {
-        display: flex;
-        justify-content: flex-end;
-        .btn {
-          background-color: #ffffff;
-        }
+        background-color: #ffffff;
+        float: right;
         img {
           width: 24px;
           height: 24px;
@@ -103,7 +92,8 @@ header {
 }
 
 .intro {
-  height: 920px;
+  padding-top: 160px;
+  padding-bottom: 160px;
   background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
   .container {
     padding-top: 160px;
@@ -131,9 +121,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 740px;
+    padding-top: 160px;
+    padding-bottom: 160px;
 
-    ul {
+    ol {
       width: 636px;
       height: 328px;
       display: flex;
@@ -177,7 +168,8 @@ header {
   background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
 
   .container {
-    height: 354px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,9 +183,11 @@ header {
       }
     }
     .contacticon {
-      width: 541px;
       display: flex;
       justify-content: space-between;
+    }
+    a {
+      margin-left: 20px;
     }
     img {
       width: 162px;
@@ -210,14 +204,16 @@ header {
 
 .project {
   .container {
-    height: 962px;
+    padding-top: 160px;
+    padding-bottom: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   .projecttitle {
     h2 {
-      margin-left: 550px;
+      width: 746px;
+      margin-left: auto;
       color: #000;
     }
   }
@@ -259,10 +255,12 @@ header {
 
 footer {
   background-color: #000;
-  height: 104px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #ffffff;
-  font-size: 16px;
+  div {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }

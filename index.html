@@ -5,22 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Castoro&family=Noto+Sans+TC&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <nav>
       <div class="container">
-        <div>WILLIAM LEE</div>
-        <div>BASED IN TAIWAN</div>
-        <div>CURRENTLY FRONT END ENGINEER AT HEXSCHOOL</div>
-        <div class="contactme">CONTACT ME</div>
+        <ul>
+          <li><a href="#">WILLIAM LEE</a></li>
+          <li><a href="#">BASED IN TAIWAN</a></li>
+          <li>
+            <a href="#"
+              >CURRENTLY FRONT END<br />
+              ENGINEER AT HEXSCHOOL</a
+            >
+          </li>
+          <li><a href="#">CONTACT ME</a></li>
+        </ul>
       </div>
     </nav>
     <header>
@@ -31,18 +38,17 @@
         />
         <div class="text">
           <h2>Hi</h2>
-          <h2>I’m a front-end developer</h2>
-          <h1>William</h1>
-          <a href="#">
-            <div class="contactbtn">
-              <div class="btn">
-                <div class="btntext">CONTACT ME</div>
-                <img
-                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward.png?raw=true"
-                  alt="arrow"
-                />
-              </div></div
-          ></a>
+          <h1>
+            I’m a front-end developer <br />
+            <span class="highlight">William</span>
+          </h1>
+          <a href="#" class="btn contactbtn">
+            CONTACT ME
+            <img
+              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward.png?raw=true"
+              alt="arrow"
+            />
+          </a>
         </div>
       </div>
     </header>
@@ -87,28 +93,28 @@
     </div>
     <div class="about">
       <div class="container">
-        <ul>
+        <ol>
           <li>
             <div class="num">01</div>
-            <div class="title">Attention to Detail</div>
+            <h3 class="title">Attention to Detail</h3>
             <p class="p16">Meticulous code analysis and optimization.</p>
           </li>
           <li>
             <div class="num">02</div>
-            <div class="title">Adaptability</div>
+            <h3 class="title">Adaptability</h3>
             <p class="p16">Swift learning of new technologies.</p>
           </li>
           <li>
             <div class="num">03</div>
-            <div class="title">Problem Solver</div>
+            <h3 class="title">Problem Solver</h3>
             <p class="p16">Identifying and resolving issues.</p>
           </li>
           <li>
             <div class="num">04</div>
-            <div class="title">Team Player</div>
+            <h3 class="title">Team Player</h3>
             <p class="p16">Collaborates and shares ideas.</p>
           </li>
-        </ul>
+        </ol>
         <div class="abouttext">
           <h2>About Me</h2>
           <p>
@@ -129,23 +135,29 @@
             alt="arrow"
           />
         </div>
-        <div class="contacticon">
-          <a href="#">
-            <img
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/discord.png?raw=true"
-              alt="discord"
-          /></a>
-          <a href="#">
-            <img
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/instagram.png?raw=true"
-              alt="ig"
-          /></a>
-          <a href="#">
-            <img
-              src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/message.png?raw=true"
-              alt="message"
-          /></a>
-        </div>
+        <ul class="contacticon">
+          <li>
+            <a href="#">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/discord.png?raw=true"
+                alt="discord"
+            /></a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/instagram.png?raw=true"
+                alt="ig"
+            /></a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/message.png?raw=true"
+                alt="message"
+            /></a>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="project">
@@ -170,14 +182,13 @@
                   sites, blogs, and landing pages. I take pride in creating
                   clean, efficient, and user-friendly code.
                 </p>
-                <a href="#">
-                  <div class="btn">
-                    <div>SEE MORE</div>
-                    <img
-                      src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward-white.png?raw=true"
-                      alt="arrow"
-                    /></div
-                ></a>
+                <a href="#" class="btn contactbtn">
+                  SEE MORE
+                  <img
+                    src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/arrow_outward-white.png?raw=true"
+                    alt="arrow"
+                  />
+                </a>
               </div>
             </div>
             <div class="bottom">
